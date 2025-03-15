@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "b6ed8628c453493513693d37sdfew323"
+name = "boilerplate"
+handle = "boilerplate-33"
+application_url = "https://aol-stopped-sri-sufficient.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "sapal-store.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_products"
+
+[auth]
+redirect_urls = [
+  "https://aol-stopped-sri-sufficient.trycloudflare.com/auth/callback",
+  "https://aol-stopped-sri-sufficient.trycloudflare.com/auth/shopify/callback",
+  "https://aol-stopped-sri-sufficient.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false

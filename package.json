@@ -1,0 +1,25 @@
+{
+  "name": "laravel-boilerplate",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "push": "shopify app push",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy",
+    "info": "shopify app info"
+  },
+  "dependencies": {
+    "@shopify/app": "3.57.1",
+    "@shopify/cli": "3.57.1"
+  },
+  "author": "anil",
+  "private": true,
+  "workspaces": [
+    "extensions/*",
+    "web",
+    "web/frontend"
+  ]
+}
