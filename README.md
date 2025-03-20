@@ -61,6 +61,18 @@ This is a template for building a [Shopify app](https://shopify.dev/docs/apps/ge
 cd ..
 ```
 
+### Install Node dependencies
+
+Using yarn:
+```
+yarn install
+```
+
+Using npm
+```
+npm install
+```
+
 ### Local Development
 
 [The Shopify CLI](https://shopify.dev/docs/apps/tools/cli) connects to an app in your Partners dashboard.
